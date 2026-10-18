@@ -17,7 +17,7 @@ response = httpx.get(URL, headers=HEADERS)
 commit = response.json()
 
 # Print the full blob, pretty-printed, so we can walk through its structure
-print(json.dumps(commit, indent=2))
+#print(json.dumps(commit, indent=2))
 
 
 # --- Step 2: navigate the structure ---

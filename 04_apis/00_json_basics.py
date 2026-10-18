@@ -31,7 +31,8 @@ print(data)
 
 # --- Simple fields ---
 
-
+age = data['age']
+city  = data['address']['city']
 
 # --- Lists ---
 
